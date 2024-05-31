@@ -40,7 +40,7 @@
                     if (ThrowDice(20)) 
                     {
                         attackDamage *= 2; 
-                        Console.WriteLine("Critical Strike!");
+                        Console.WriteLine("Critical Strike! Double damage thanks to the archer's bow!");
                     }
                 }
                 else if (Weapon.SpecialAbility.Contains("Precision Shot"))
@@ -48,7 +48,7 @@
                     if (ThrowDice(5)) 
                     {
                         attackDamage = 500;
-                        Console.WriteLine("Precision Shot");
+                        Console.WriteLine("Precision Shot! Rare occasion of an instant kill thanks to the knight's sword");
                     }
                 }
                 else if (Weapon.SpecialAbility.Contains("Healing Wave"))
